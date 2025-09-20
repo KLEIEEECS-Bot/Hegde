@@ -1,77 +1,89 @@
-<<<<<<< HEAD
-# 10.-Team-Name-Problem-Statement
-=======
-# Welcome to your Lovable project
+Smart Ajji 🛡️
 
-## Project info
+Tagline: Safe, Simple, Story-Driven Cyber Guidance for Elders 👵📲
 
-**URL**: https://lovable.dev/projects/ebea19f1-3363-4f3e-8e69-81a041c91699
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+Project Overview
 
-**Use Lovable**
+Smart Ajji is an elder-friendly platform that helps grandparents stay safe online, understand messages, and perform transactions securely. It uses AI, local language voice explanations, and storytelling to make cyber safety easy and engaging.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ebea19f1-3363-4f3e-8e69-81a041c91699) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+Who Benefits
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Elders / Grandparents: Safe online experience, simple guidance, story-based learning.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Families / Children: Monitor elders, approve transactions, receive alerts.
 
-Follow these steps:
+Community / NGOs: Educate multiple elders through a fun and interactive platform.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Key Features
 
-**Edit a file directly in GitHub**
+📩 Message Explainer: Detects scams, explains in local language + voice
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📖 Story & Mythology-Based Learning: Engaging lessons through stories or serials
 
-**Use GitHub Codespaces**
+💳 UPI Transaction Monitoring: Family-defined limits and approvals
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🎯 Learning Progress & Motivation: Tracks progress, sets ranks and achievements
 
-## What technologies are used for this project?
+🎬 Multimedia Support: Photos, short videos, and interactive storytelling
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/ebea19f1-3363-4f3e-8e69-81a041c91699) and click on Share -> Publish.
+Unique Innovations ✨
 
-## Can I connect a custom domain to my Lovable project?
+🗣️ Voice + Local Language Narration – easy for elders who can’t read English
 
-Yes, you can!
+📚 Cultural & Mythology Stories – makes learning memorable and fun
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+👨‍👩‍👧 Family Alert System – real-time notifications to relatives
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
->>>>>>> 6ae80c2 (last)
+🤝 Community Learning – share stories and tips with peers
+
+🛠️ Integrated AI Guidance – combines message scanning, story learning, and payment supervision in one platform
+
+
+> Major Highlight / New Idea:
+Elders can learn through stories, serial-style shows, and mythology, making cyber safety culturally relevant and easy to remember, while families stay connected for supervision. 🌟
+
+
+
+
+---
+
+Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+Backend: Python (Flask / Django)
+
+Database: PostgreSQL / SQLite
+
+AI / NLP: GenAI (Gemini), scikit-learn
+
+Voice / TTS: gTTS / ElevenLabs
+
+Payment Integration: PhonePe / Google Pay API 💳
+
+
+
+---
+
+Impact & Future Scope
+
+Short-term: Safer online transactions, reduced scams, confidence for elders
+
+Long-term: Digital literacy, family-supported learning, wider community impact
+
+Future Roadmap: Multi-language support, AR/VR storytelling, advanced AI, mobile expansion
+
