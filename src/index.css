@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Elder-friendly cybersecurity education design system
+All colors are HSL for accessibility and theming
+*/
+
+@layer base {
+  :root {
+    /* Base colors - warm and trustworthy */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 20%;
+
+    /* Card and content areas */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 20%;
+
+    /* Primary - trustworthy blue */
+    --primary: 210 55% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 210 45% 85%;
+
+    /* Secondary - gentle green for safety */
+    --secondary: 140 35% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-soft: 140 25% 88%;
+
+    /* Muted backgrounds */
+    --muted: 210 15% 95%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Accent - warm orange for family warmth */
+    --accent: 25 85% 60%;
+    --accent-foreground: 0 0% 100%;
+    --accent-soft: 25 60% 92%;
+
+    /* Warning/danger - for scam alerts */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-soft: 0 45% 95%;
+
+    /* Success - for safe messages */
+    --success: 140 55% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-soft: 140 35% 92%;
+
+    /* Border and inputs - softer for elderly eyes */
+    --border: 210 15% 88%;
+    --input: 210 15% 95%;
+    --ring: 210 55% 45%;
+
+    --radius: 0.75rem;
+
+    /* Gradients for visual appeal */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-soft)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-soft)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-soft)));
+
+    /* Shadows for depth */
+    --shadow-soft: 0 4px 6px -1px hsl(var(--primary) / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(var(--primary) / 0.1);
+
+    /* Sidebar colors for elder-friendly navigation */
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode colors - softer for elderly eyes */
+    --background: 215 25% 12%;
+    --foreground: 210 15% 95%;
+
+    --card: 215 25% 15%;
+    --card-foreground: 210 15% 95%;
+
+    --popover: 215 25% 15%;
+    --popover-foreground: 210 15% 95%;
+
+    --primary: 210 45% 65%;
+    --primary-foreground: 215 25% 12%;
+    --primary-soft: 210 35% 25%;
+
+    --secondary: 140 25% 55%;
+    --secondary-foreground: 215 25% 12%;
+    --secondary-soft: 140 15% 20%;
+
+    --muted: 215 20% 18%;
+    --muted-foreground: 210 10% 70%;
+
+    --accent: 25 75% 65%;
+    --accent-foreground: 215 25% 12%;
+    --accent-soft: 25 45% 25%;
+
+    --destructive: 0 65% 65%;
+    --destructive-foreground: 215 25% 12%;
+    --destructive-soft: 0 35% 20%;
+
+    --success: 140 45% 60%;
+    --success-foreground: 215 25% 12%;
+    --success-soft: 140 25% 20%;
+
+    --border: 215 20% 22%;
+    --input: 215 20% 18%;
+    --ring: 210 45% 65%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
