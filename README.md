@@ -52,8 +52,7 @@ Unique Innovations ✨
 
 🛠️ Integrated AI Guidance – combines message scanning, story learning, and payment supervision in one platform
 
-
-> Major Highlight / New Idea:
+⭐Major Highlight / New Idea:
 Elders can learn through stories, serial-style shows, and mythology, making cyber safety culturally relevant and easy to remember, while families stay connected for supervision. 🌟
 
 
